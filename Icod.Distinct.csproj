@@ -13,6 +13,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Icod.Argh" Version="1.0.1" />
+  </ItemGroup>
+  <ItemGroup>
     <None Update="Icod.Distinct.License">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
