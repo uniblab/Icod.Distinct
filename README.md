@@ -2,13 +2,13 @@
 Distinct.exe returns only unique lines of text from input.
 
 ## Usage
-`Distinct.exe --help`
+`Distinct.exe (-h | --help | /help)`
 Displays this text.
 
-`Distinct.exe --copyright`
+`Distinct.exe (-c | --copyright | /copyright)`
 Displays copyright and licensing information.
 
-`Distinct.exe [--input inputFilePathName] [--output outputFilePathName] [--ignoreCase (true|false)] [--name cultureName]`
+`Distinct.exe [(-i | --input | /input) inputFilePathName] [(-o | --output | /output) outputFilePathName] [(-ic | --ignoreCase | /ignoreCase) (true|false)] [(-n | --name | /name) cultureName]`
 Distinct.exe returns only unique lines of text from input.
 inputFilePathName and outputFilePathName may be relative or absolute paths.
 If inputFilePathName is omitted then input is read from StdIn.

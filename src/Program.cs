@@ -100,9 +100,9 @@ namespace Icod.Distinct {
 
 		private static void PrintUsage() {
 			System.Console.Error.WriteLine( "No, no, no! Use it like this, Einstein:" );
-			System.Console.Error.WriteLine( "Distinct.exe --help" );
-			System.Console.Error.WriteLine( "Distinct.exe --copyright" );
-			System.Console.Error.WriteLine( "Distinct.exe [--input inputFilePathName] [--output outputFilePathName] [--ignoreCase (true|false)] [--name cultureName]" );
+			System.Console.Error.WriteLine( "Distinct.exe (-h | --help | /help)" );
+			System.Console.Error.WriteLine( "Distinct.exe (-c | --copyright | /copyright)" );
+			System.Console.Error.WriteLine( "Distinct.exe [(-i | --input | /input) inputFilePathName] [(-o | --output | /output) outputFilePathName] [(-ic | --ignoreCase | /ignoreCase) (true|false)] [(-n | --name | /name) cultureName]" );
 			System.Console.Error.WriteLine( "Distinct.exe returns only unique lines of text from input." );
 			System.Console.Error.WriteLine( "inputFilePathName and outputFilePathName may be relative or absolute paths." );
 			System.Console.Error.WriteLine( "If inputFilePathName is omitted then input is read from StdIn." );
