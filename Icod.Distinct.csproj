@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <!--
         Distinct.exe returns only unique lines of text from input.
-        Copyright (C) 2023 Timothy J. Bruce
+        Copyright (C) 2025 Timothy J. Bruce
     -->
   <PropertyGroup>
 	  <RootNamespace>Icod.Distinct</RootNamespace>
@@ -13,8 +13,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Icod.Argh" Version="1.1.1" />
-    <PackageReference Include="Icod.Helpers" Version="1.0.0" />
+    <PackageReference Include="Icod.Argh" Version="1.1.2" />
+    <PackageReference Include="Icod.Helpers" Version="1.0.2" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Icod.Distinct.License">

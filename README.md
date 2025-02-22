@@ -18,7 +18,7 @@ The ignoreCase switch should be true to specify that comparison operations be ca
 
 ## Copyright and Licensing
 Distinct.exe returns only unique lines of text from input.
-Copyright( C ) 2023 Timothy J. Bruce
+Copyright( C ) 2025 Timothy J. Bruce
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published 
