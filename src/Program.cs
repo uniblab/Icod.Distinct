@@ -1,5 +1,5 @@
 ﻿// Distinct.exe returns only unique lines of text from input.
-// Copyright (C) 2023 Timothy J. Bruce
+// Copyright (C) 2025 Timothy J. Bruce
 
 /*
     This program is free software: you can redistribute it and/or modify
@@ -115,7 +115,7 @@ namespace Icod.Distinct {
 		private static void PrintCopyright() {
 			var copy = new System.String[] {
 				"Distinct.exe returns only unique lines of text from input.",
-				"Copyright( C ) 2023 Timothy J. Bruce",
+				"Copyright( C ) 2025 Timothy J. Bruce",
 				"",
 				"This program is free software: you can redistribute it and / or modify",
 				"it under the terms of the GNU General Public License as published by",
